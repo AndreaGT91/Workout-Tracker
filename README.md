@@ -1,4 +1,25 @@
 # Workout-Tracker
+A simple workout tracker that allows you to create new workouts or update an existing workout by adding exercises. The exercises can be cardio or resistance, and the appropriate information is collected for each type of exercise. There is a Dashboard page with statistics about all of the user's workouts. As per the assignment instructions below, the user interface was provided. I was only required create a Mongo database with a Mongoose schema and handle routes with Express.
+
+## GitHub Repository
+[github.com/AndreaGT91/Workout-Tracker](https://github.com/AndreaGT91/Workout-Tracker)
+
+## Heroku Deployment
+[polite-bunnyhug-15076.herokuapp.com/](https://polite-bunnyhug-15076.herokuapp.com/)
+
+## Installation 
+ `npm install` 
+
+## Usage 
+ `node server.js`   
+ [localhost:3000/](http://localhost:3000/)
+
+## Questions 
+ ![Andrea Bentley](https://avatars2.githubusercontent.com/u/58275699?v=4&s=48)  Andrea Bentley  (AndreaGT91)     
+[andrea@bentleytech.com](mailto:andrea@bentleytech.com)
+
+
+## Assignment:
 # Unit 17 Nosql Homework: Workout Tracker
 
 For this assignment, you'll create a workout tracker. You have already been provided with the front end code in the `Develop` folder. This assignment will require you to create Mongo database with a Mongoose schema and handle routes with Express.
