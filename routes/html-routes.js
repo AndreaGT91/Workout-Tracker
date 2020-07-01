@@ -9,9 +9,9 @@ module.exports = function (app) {
     res.sendFile(path.join(__dirname, "../public/exercise.html"));
   });
 
-  app.get("/exercise?", function (req, res) {
-    res.sendFile(path.join(__dirname, "../public/exercise.html"));
-  });
+  // app.get("/exercise?", function (req, res) {
+  //   res.sendFile(path.join(__dirname, "../public/exercise.html"));
+  // });
 
   app.get("/exercise/:id", function (req, res) {
     res.sendFile(path.join(__dirname, "../public/exercise.html/?id=" + req.params.id));

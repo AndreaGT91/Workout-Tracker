@@ -23,7 +23,6 @@ router.put("/api/workouts/:id", (req, res) => {
 });
 
 router.get("/api/workouts", (req, res) => {
-  console.log("In /api/workouts");
   Workout.find({})
     .sort({ day: 1 })
     .then(dbWorkout => {
